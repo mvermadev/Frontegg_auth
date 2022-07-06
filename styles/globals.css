@@ -14,3 +14,54 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.clickToLogin{
+ width: 100vw;
+ height: 100vh; 
+ background-color: #FF3CAC;
+ background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+ display: flex; justify-content: center; align-items: center;
+}
+
+.clickToLogin button, .isAuthenticated button{
+ background-color: transparent;
+ color: #ffffff;
+ font-size: 2rem;
+ border: 1px solid #fff;
+ border-radius: 10px;
+ padding: 1rem;
+ cursor: pointer;
+ word-spacing: 0.1rem;
+ transition: all 0.5s ease;
+}
+
+.clickToLogin button:hover{
+  padding: 3.5rem;
+}
+
+.loginPage{
+  background-color: #FBDA61;
+  background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+  width: 100vw;
+  height: 100vh;
+}
+
+.isAuthenticated{
+  padding: 1rem;
+}
+
+.loginPage .cardSection{
+  margin: auto;
+}
+
+.loginPage .cardSection img{
+  margin-top: 5rem;
+  width: 10rem;
+  border-radius: 100px;
+}
+
+.loginPage .cardSection span{
+  font-size: 1.2rem;
+  color: #333333;
+  letter-spacing: 1px;
+}
