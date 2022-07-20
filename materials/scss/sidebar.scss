@@ -1,0 +1,44 @@
+.SideBar-BV{
+    background-color: #455B7B;
+    color: #DDEBFF;
+    height: 100vh;
+    min-width: 20vw;
+    max-width: 20vw;
+    background-attachment: fixed;
+    position: fixed;
+    left: 0;
+    top:0;
+    bottom: 0;
+}
+
+.SideBar-BV .Nav{    
+    height: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.SideBar-BV .NavList{
+    min-width: 20vw;
+    max-width: 20vw;
+    padding-left: 4vw;
+    cursor: pointer;
+}
+
+.SideBar-BV .wholeContainer{
+    height: 100vh;
+}
+
+.SideBar-BV .bottomSection{
+    background-color: #DDEBFF;
+    color: #455B7B;
+    padding: 5px 0;
+    border-radius: 20px 20px 0 0;
+    min-width: 20vw;
+    max-width: 20vw;
+    cursor: pointer;
+}
+
+.SideBar-BV .bottomSection p{
+    padding-left: 1rem;
+    padding-top: 1rem;
+}

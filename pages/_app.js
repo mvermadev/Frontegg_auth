@@ -1,6 +1,7 @@
 import '../styles/globals.css';
 import "bootstrap/dist/css/bootstrap.min.css"
 import { FronteggProvider } from '@frontegg/nextjs'
+import "../materials/scss/index.scss";
 
 const development = true;
 
